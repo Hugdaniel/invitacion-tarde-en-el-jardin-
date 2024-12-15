@@ -11,3 +11,36 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.header{
+    position: relative;
+    overflow: hidden;
+}
+
+.fondo{
+    width: 100%;
+    height: auto;
+}
+
+.fondo img{
+    object-fit: cover;
+}
+
+.img{
+    position: absolute;
+    bottom: 0px;
+    right: 180px;
+    z-index: 30;
+}
+
+.img img{
+    width: 185%;
+    height: auto;
+}
+
+.txt{
+    width: 45%;
+    position: absolute;
+    bottom: 150px;
+    left: 25px;
+}
